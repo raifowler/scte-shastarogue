@@ -8,77 +8,88 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/fontawesome-all.js"></script>
 
     <title>SCTE Shasta Rogue Chapter</title>
   </head>
   <body>
     <header>
-      <div class="container-fluid bg-secondary">
+      <div class="container-fluid bg-dark">
         <div class="container">
-          <img src="assets/scte.png" class="img-fluid float-left scte" alt="Picture of SCTE Logo">
-          <img src="assets/logo.png" class="img-fluid mx-auto d-block shasta" alt="Picture of Shasta Rogue Chapter Logo">
+          <a href="https://www.scte.org" target="_blank">
+            <img src="assets/SCTEISBE_Logo_Abbrev_2017_Reverse.png" class="img-fluid mx-auto d-block scte" alt="Picture of SCTE Logo">
+          </a>
         </div>
       </div>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a href="index.html" class="navbar-brand">
+          <img src="./assets/logo.png" class="shasta" alt="Picture of Shasta Rogue Chapter Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-shasta" aria-controls="navbar-shasta" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-shasta">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link font-weight-bold active">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="about.html" class="nav-link dropdown-toggle font-weight-bold" id="about-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+              <div class="dropdown-menu" aria-labelledby="about-dropdown">
+                <a href="about.html" class="dropdown-item font-weight-bold">About Us</a>
+                <a href="board.html" class="dropdown-item font-weight-bold">Board of Directors</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="events.html" class="nav-link font-weight-bold">Events</a>
+            </li>
+            <li class="nav-item">
+              <a href="resources.html" class="nav-link font-weight-bold">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link font-weight-bold">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.facebook.com/shastarogue/" class="nav-link" target="_blank">
+                <i class="fab fa-facebook fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
-    <nav>
-      <div class="container-fluid bg-primary border border-dark">
-        <ul class="container nav">
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Home</a>
-          </li>
-  <!--    <li class="nav-item dropdown">
-            <a class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Separated link</a>
-            </div>
-          </li>
-  -->
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Training &amp; Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white disabled" href="#">NW Tech Days</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white disabled" href="#">Board of Directors</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+
 
     <section>
-      <div class="container my-2">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="jumbotron bg-light border">
-              <h1 class="display-4">Welcome to the SCTE Shasta Rogue Chapter</h1>
-              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <hr class="my-4">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-              <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-              </p>
+      <div class="container-fluid bg-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 mt-3">
+              <h3>Welcome to the SCTE Shasta Rogue Chapter</h3>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card">
-              <div class="card-header text-primary font-weight-bold">
-                SCTE Resources
+          <div class="row">
+            <div class="col-md-9 my-1">
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <button type="button" class="btn btn-primary">Get Involved</button>
+            </div>
+            <div class="col-md-3">
+              <div class="card my-1">
+                <div class="card-header text-primary text-md-center font-weight-bold">
+                  SCTE Resources
+                </div>
+                <div class="list-group list-group-flush">
+                  <a href="http://www.scte.org/SCTE/About/SCTE/About/About_SCTE.aspx?hkey=62e34eb6-14d3-4492-a8b3-e385e0f9f2b3" class="list-group-item list-group-item-action" target="_blank">About SCTE</a>
+                  <a href="http://www.scte.org/SCTE/Shop/iCore/Store/StoreLayouts/Store_Home.aspx" class="list-group-item list-group-item-action" target="_blank">Bookstore</a>
+                  <a href="http://www.scte.org/SCTE/Certification/SCTE/Certification/ProfessionalCertifications.aspx?hkey=f3caa6d7-37ed-4178-8290-a8322a5f5772" class="list-group-item list-group-item-action" target="_blank">Certification</a>
+                  <a href="http://foundation.scte.org/" class="list-group-item list-group-item-action" target="_blank">Foundation</a>
+                  <a href="http://www.scte.org/SCTE/Certification/ProctorSearch/SCTE/About/ProctorSearch.aspx?hkey=a2f8c1bb-2bb3-4560-a41f-e077509154eb" class="list-group-item list-group-item-action" target="_blank">Find a Proctor</a>
+                  <a href="https://www.scte.org/SCTE/Join/FastForms/CreateAccount.aspx?hkey=939de7de-949a-478d-bd43-4b3e328d8108" class="list-group-item list-group-item-action" target="_blank">Join SCTE</a>
+                  <a href="https://www.scte.org/SCTE/Sign_In.aspx?WebsiteKey=d0db0c8b-3938-4b3f-9115-ca69a7380e96&LoginRedirect=true&returnurl=%2fSCTE%2fResources%2fMemberLINK.aspx" class="list-group-item list-group-item-action" target="_blank">MemberLINK</a>
+                </div>
               </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">About SCTE</li>
-                <li class="list-group-item">Bookstore</li>
-                <li class="list-group-item">Certification</li>
-                <li class="list-group-item">Foundation</li>
-                <li class="list-group-item">Find a Proctor</li>
-                <li class="list-group-item">Join SCTE</li>
-                <li class="list-group-item">MemberLINK</li>
-              </ul>
             </div>
           </div>
         </div>
@@ -89,7 +100,8 @@
       <div class="container-fluid">
         <hr class="my-2">
           <div class="container">
-            <small>Copyright &copy; 2018 | SCTE Shasta Rogue Chapter</small>
+
+            <small>&copy; 2018 | Society of Cable Telecommunications Engineers, Shasta Rogue Chapter | All Rights Reserved</small>
           </div>
       </div>
     </footer>
